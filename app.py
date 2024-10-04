@@ -5,6 +5,9 @@ from flask_sqlalchemy import SQLAlchemy
 #My App
 app =  Flask(__name__)
 
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
+db = SQLAlchemy(app)
+
 @app.route("/healtcheck")
 def healtcheck():
     return render_template("healtcheck.html")
