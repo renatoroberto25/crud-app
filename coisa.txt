@@ -1,7 +1,7 @@
 FLASK
 SASS
 SQL ALchemy
-
+https://www.youtube.com/watch?v=45P3xQPaYxc&list=PLEpRcxOmTFlN1ITmQU5P8PHXBSSIMBZaS
 #########################
 
   571  python3 -m venv crud-app
