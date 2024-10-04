@@ -2,3 +2,29 @@ FLASK
 SASS
 SQL ALchemy
 
+#########################
+
+  571  python3 -m venv crud-app
+  572  source crud-app/bin/activate
+  573  pip list
+  582  pip install Flask Flask-Scss Flask-SQLAlchemy --use-pep517
+----------------------------------------------------------------
+pip3 list
+Package           Version
+----------------- -------
+blinker           1.8.2
+click             8.1.7
+Flask             3.0.3
+Flask-Scss        0.5
+Flask-SQLAlchemy  3.1.1
+greenlet          3.1.1
+itsdangerous      2.2.0
+Jinja2            3.1.4
+MarkupSafe        2.1.5
+pip               23.0.1
+pyScss            1.4.0
+setuptools        66.1.1
+six               1.16.0
+SQLAlchemy        2.0.35
+typing_extensions 4.12.2
+Werkzeug          3.0.4
