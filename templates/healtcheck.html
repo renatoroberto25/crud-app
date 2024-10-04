@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
-    <title>Healthcheck</title>
-</head>
+{% extends 'base.html' %}
+{% block head %} 
+<title>Healthcheck</title>
+{% endblock %}
+{% block body %}
 <body>
     <div class="content">
         <h1>Teste app 1.0</h1>
@@ -13,7 +10,6 @@
     </div>
 
     <footer>
-        HEALTHCHECK
+        HEALTHCHECK2
     </footer>
-</body>
-</html>
+    {% endblock %}
