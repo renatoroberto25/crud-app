@@ -1,6 +1,7 @@
-FLASK
-SASS
-SQL ALchemy
+FLASK OK
+SASS x nessa casa se vamos fazer frontend é com css mesmo, foda-se o sass
+SQL ALchemy OK
+
 https://www.youtube.com/watch?v=45P3xQPaYxc&list=PLEpRcxOmTFlN1ITmQU5P8PHXBSSIMBZaS
 #########################
 
@@ -28,15 +29,18 @@ six               1.16.0
 SQLAlchemy        2.0.35
 typing_extensions 4.12.2
 Werkzeug          3.0.4
-
-
-
-
-gh pr create --base main --head sua-nova-branch --title "Título da Pull Request" --body "Descrição da Pull Request"
+-----------------------------------------------
+o que fiz no git:
+git checkout -b base-html
+~alterações push testes~
+gh pr create --base main --head base-html --title "Título da Pull Request" --body "base-html testada com sucesso"
 git branch -d base-html
 warning: deleting branch 'base-html' that has been merged to
          'refs/remotes/origin/base-html', but not yet merged to HEAD.
 Deleted branch base-html (was ba868ff).
-renato@a51453:~/projects/Python/CRUD$ git push origin --delete base-html
+git push origin --delete base-html
 To github.com:renatoroberto25/crud-app.git
  - [deleted]         base-html
+
+ #####################################################
+ database model
