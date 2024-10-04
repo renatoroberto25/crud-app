@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+  background-color: #001f3f; /* Azul-marinho */
+  color: #ffdc00; /* Amarelo vibrante para contraste */
+  font-family: 'Courier New', Courier, monospace; /* Estilo retro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #ff851b; /* Laranja vibrante */
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px #000000; /* Sombra para dar efeito retrô */
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #7fdbff; /* Azul claro contrastante */
+  max-width: 800px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.content {
+  flex: 1; /* Faz o conteúdo ocupar o espaço restante */
+}
+
+footer {
+  background-color: #001f3f; /* Azul marinho */
+  color: #ffffff; /* Texto branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px; /* Espaço interno */
+  position: relative; /* Para controlar o posicionamento, se necessário */
+  bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+  width: 100%; /* Faz o rodapé ocupar toda a largura */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Sombra para um leve efeito 3D */
+}
