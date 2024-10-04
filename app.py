@@ -6,9 +6,13 @@ from flask_sqlalchemy import SQLAlchemy
 app =  Flask(__name__)
 
 @app.route("/healtcheck")
-def index():
+def healtcheck():
     return render_template("healtcheck.html")
+
+@app.route("/")
+def index():
+    return render_template("index.html") 
+
 
 if __name__ in "__main__":
     app.run(debug=True)
-

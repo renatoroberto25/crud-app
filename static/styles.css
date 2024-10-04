@@ -43,3 +43,31 @@ footer {
   width: 100%; /* Faz o rodapé ocupar toda a largura */
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Sombra para um leve efeito 3D */
 }
+
+/* Estilos para a tabela */
+table {
+  width: 100%; /* Ocupa toda a largura disponível */
+  border-collapse: collapse; /* Remove espaços entre as bordas das células */
+  margin-top: 20px; /* Espaço acima da tabela */
+}
+
+/* Estilos para cabeçalho da tabela */
+th {
+  background-color: darkcyan; /* Cor de fundo do cabeçalho */
+  color: white; /* Cor do texto do cabeçalho */
+  padding: 10px; /* Espaço interno no cabeçalho */
+}
+
+/* Estilos para células da tabela */
+td {
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente nas células */
+  color: white; /* Cor do texto nas células */
+  padding: 10px; /* Espaço interno nas células */
+  border: 1px solid darkcyan; /* Borda nas células */
+}
+
+/* Efeito ao passar o mouse sobre as células da tabela */
+tr:hover td {
+  background-color: darkcyan; /* Cor de fundo quando o mouse passa */
+  color: white; /* Cor do texto ao passar o mouse */
+}
