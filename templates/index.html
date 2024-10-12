@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
-{% block head %} {% endblock %}
+
+{% block title %}Gordao Cyber Bullet 1.0{% endblock %}
+
 {% block body %}
     <div class="content">
         <h1>Gordao Cyber Bullet 1.0</h1>
@@ -20,7 +22,7 @@
                 <td>
                     <a href="/delete/{{task.id}}">Deletar</a>
                     <br/>
-                    <a href="/update/{{task.id}}">Editar</a>
+                    <a href="/edit/{{task.id}}">Editar</a>
                 </td>
             </tr>
             {% endfor %}
