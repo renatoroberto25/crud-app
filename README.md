@@ -18,6 +18,7 @@ Tecnologias Utilizadas
 
 #########################################################################################
 Estrutura do projeto:
+
 .
 ├── app.py              # Arquivo principal da aplicação Flask
 ├── database.db         # Banco de dados SQLite gerado automaticamente
@@ -28,6 +29,7 @@ Estrutura do projeto:
 ├── static/
 │   └── styles.css      # Arquivo de estilização com o tema Dracula
 └── README.md           # Este arquivo
+
 #########################################################################################
 Como Executar o Projeto
 git clone https://github.com/renatoroberto25/gordao-cyber-bullet.git

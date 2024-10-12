@@ -23,8 +23,8 @@ class Mytask(db.Model):
 def healtcheck():
     return render_template("healtcheck.html")
 
-# rotas
-# home
+# Rotas Home 
+
 @app.route("/",methods=["POST","GET"])
 def index():
     # add uma task
@@ -43,8 +43,8 @@ def index():
         tasks =  Mytask.query.order_by(Mytask.created).all()
         return render_template('index.html', tasks=tasks)
 
-#
-# deletando
+
+# Rota delete
 @app.route("/delete/<int:id>")
 def delete(id:int):
     delete_task = Mytask.query.get_or_404(id)
@@ -55,7 +55,7 @@ def delete(id:int):
     except Exception as e:
         return f"ERROR:{e}"
 
-#Editar um item
+#Rota Edit
 @app.route("/edit/<int:id>", methods=["GET","POST"])
 def edit(id:int):
     task = Mytask.query.get_or_404(id)
